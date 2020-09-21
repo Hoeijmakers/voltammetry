@@ -87,7 +87,7 @@ def plot_curve(V,I,labels,type,outfile,textsize=6,unit='uA'):
     lines=[]
     lw=1.5
     for i in range(N):
-        y_label = 'Current ($\nu$A)'
+        y_label = 'Current ($\mu$A)'
         if unit == 'mA':
             I[i]/=1000.0
             y_label = 'Current (mA)'
